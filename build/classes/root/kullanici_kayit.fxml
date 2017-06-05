@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="493.0" xmlns="http://javafx.com/javafx/8.0.72" xmlns:fx="http://javafx.com/fxml/1" fx:controller="root.Kullanici_kayitController">
+   <children>
+      <Button fx:id="btn_anasayfa" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#git_anasayfa" text="Ana Sayfa" />
+      <Label fx:id="lbl_1_baslik" layoutX="206.0" layoutY="39.0" text="Yeni Kullanıcı Ekle">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_6_kul" layoutX="81.0" layoutY="224.0" text="Unvan">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="lbl_5_kul" layoutX="81.0" layoutY="188.0" text="Kullanıcı Şifre">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="lbl_4_kul" layoutX="82.0" layoutY="153.0" text="Kullanıcı Adı">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="lbl_3_kul" layoutX="81.0" layoutY="115.0" text="Soyad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="lbl_2_kul" layoutX="83.0" layoutY="77.0" text="Ad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <TextField fx:id="txt_ad" layoutX="206.0" layoutY="77.0" prefHeight="25.0" prefWidth="189.0" />
+      <TextField fx:id="txt_unvan" layoutX="206.0" layoutY="224.0" prefHeight="25.0" prefWidth="189.0" />
+      <TextField fx:id="txt_kullaniciSifre" layoutX="206.0" layoutY="188.0" prefHeight="25.0" prefWidth="189.0" />
+      <TextField fx:id="txt_kullaniciAdi" layoutX="206.0" layoutY="153.0" prefHeight="25.0" prefWidth="189.0" />
+      <TextField fx:id="txt_soyad" layoutX="206.0" layoutY="115.0" prefHeight="25.0" prefWidth="189.0" />
+      <Button fx:id="btn_devam" layoutX="345.0" layoutY="265.0" mnemonicParsing="false" onAction="#devam_et" text="Devam">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

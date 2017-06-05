@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="493.0" xmlns="http://javafx.com/javafx/8.0.72" xmlns:fx="http://javafx.com/fxml/1" fx:controller="root.Kullanici_dersController">
+   <children>
+      <Button fx:id="btn_geri" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#geri_git" text="Geri" />
+      <Label fx:id="lbl_baslik" layoutX="198.0" layoutY="26.0" text="Ders Ekleme">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmb_bolum" layoutX="156.0" layoutY="80.0" prefHeight="25.0" prefWidth="201.0" />
+      <Label fx:id="lbl_1_ders" layoutX="61.0" layoutY="84.0" text="Bölüm " />
+      <Button fx:id="btn_sirala" layoutX="202.0" layoutY="170.0" mnemonicParsing="false" onAction="#dersleri_sirala" text="Dersleri Sırala" />
+      <RadioButton fx:id="radio_1" layoutX="61.0" layoutY="226.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_5" layoutX="191.0" layoutY="253.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_4" layoutX="61.0" layoutY="253.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_3" layoutX="323.0" layoutY="225.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="89.0" text="RadioButton" />
+      <RadioButton fx:id="radio_2" layoutX="191.0" layoutY="226.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_6" layoutX="324.0" layoutY="250.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_7" layoutX="61.0" layoutY="279.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_8" layoutX="191.0" layoutY="279.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_9" layoutX="324.0" layoutY="276.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_10" layoutX="61.0" layoutY="302.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_11" layoutX="191.0" layoutY="302.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="radio_12" layoutX="324.0" layoutY="299.0" mnemonicParsing="false" text="RadioButton" />
+      <Label fx:id="lbl_2_ders" layoutX="66.0" layoutY="125.0" prefHeight="17.0" prefWidth="31.0" text="Sınıf" />
+      <ComboBox fx:id="cmb_sinif" layoutX="156.0" layoutY="121.0" prefHeight="25.0" prefWidth="201.0" />
+      <Button fx:id="btn_tamamla" layoutX="403.0" layoutY="345.0" mnemonicParsing="false" onAction="#ekleme_bitir" text="Tamamla">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_ekle" layoutX="296.0" layoutY="345.0" mnemonicParsing="false" onAction="#ders_ekle" prefHeight="30.0" prefWidth="87.0" text="Ekle">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

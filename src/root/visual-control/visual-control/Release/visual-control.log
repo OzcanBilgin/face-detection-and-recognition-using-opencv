@@ -1,0 +1,20 @@
+﻿Build started 20.05.2017 19:06:24.
+     1>Project "C:\Users\mur_b\Desktop\NetBeansProjects\fffff\visual-control\visual-control\visual-control.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\visual-control.unsuccessfulbuild".
+       CustomBuild:
+         Rcc'ing visualcontrol.qrc...
+         '"H:\Qt\4.7.1-static-vs2010\bin\rcc.exe"' is not recognized as an internal or external command,
+         operable program or batch file.
+         Moc'ing visualcontrol.h...
+         '"H:\Qt\4.7.1-static-vs2010\bin\moc.exe"' is not recognized as an internal or external command,
+         operable program or batch file.
+         Moc'ing webcamwidget.h...
+         '"H:\Qt\4.7.1-static-vs2010\bin\moc.exe"' is not recognized as an internal or external command,
+         operable program or batch file.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 9009.
+     1>Done Building Project "C:\Users\mur_b\Desktop\NetBeansProjects\fffff\visual-control\visual-control\visual-control.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.08

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="root.jnlp">
+  <information>
+    <title>root</title>
+    <vendor>mur_b</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.labrary.path="C:\Users\user\Desktop\Face-Recognition-master\lib" "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\colt.jar" size="581945" download="eager" />
+    <jar href="lib\jai_imageio-1.1.jar" size="1140632" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="827921" download="eager" />
+    <jar href="lib\opencv-310.jar" size="324300" download="eager" />
+    <jar href="root.jar" size="38859336" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="root" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="root.Roott"  name="root" />
+  <update check="always"/>
+</jnlp>

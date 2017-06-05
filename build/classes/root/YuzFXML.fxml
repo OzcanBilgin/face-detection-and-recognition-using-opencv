@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="639.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yuz.YuzFXMLController">
+   <children>
+      <CheckBox fx:id="haarClassifier" layoutX="179.0" layoutY="14.0" mnemonicParsing="false" onAction="#haarSelected" text="Haar" />
+      <CheckBox fx:id="lbpClassifier" layoutX="416.0" layoutY="14.0" mnemonicParsing="false" onAction="#lbpSelected" text="LBP" />
+      <ImageView fx:id="originalFrame" fitHeight="311.0" fitWidth="639.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="cameraButton" disable="true" layoutX="36.0" layoutY="397.0" mnemonicParsing="false" onAction="#startCamera" prefHeight="36.0" prefWidth="65.0" text="Başlat" />
+      <CheckBox fx:id="newUser" layoutX="149.0" layoutY="408.0" mnemonicParsing="false" onAction="#newUserSelected" text="yeni kullanıcı" />
+      <TextField fx:id="newUserName" layoutX="287.0" layoutY="404.0" />
+      <Button fx:id="newUserNameSubmit" layoutX="506.0" layoutY="393.0" mnemonicParsing="false" onAction="#newUserNameSubmitted" prefHeight="36.0" prefWidth="65.0" text="Kaydet" />
+   </children>
+</AnchorPane>

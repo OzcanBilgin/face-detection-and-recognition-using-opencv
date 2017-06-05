@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="416.0" prefWidth="543.0" xmlns="http://javafx.com/javafx/8.0.72" xmlns:fx="http://javafx.com/fxml/1" fx:controller="root.Bilgi_guncelle_formController">
+   <children>
+      <Label fx:id="lbl_bilgi_0" layoutX="190.0" layoutY="45.0" prefHeight="30.0" prefWidth="162.0" text="Bilgileri Güncelle" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_bilgi_1" layoutX="151.0" layoutY="115.0" prefHeight="17.0" prefWidth="97.0" text="Ad : ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_bilgi_3" layoutX="151.0" layoutY="204.0" prefHeight="17.0" prefWidth="97.0" text="Unvan : ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_bilgi_2" layoutX="151.0" layoutY="161.0" prefHeight="17.0" prefWidth="97.0" text="Soyad : ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_bilgi_5" layoutX="151.0" layoutY="295.0" prefHeight="17.0" prefWidth="97.0" text="Ders :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_bilgi_ad" layoutX="243.0" layoutY="115.0" />
+      <TextField fx:id="txt_bilgi_soyad" layoutX="243.0" layoutY="161.0" />
+      <TextField fx:id="txt_bilgi_unvan" layoutX="243.0" layoutY="204.0" />
+      <Label fx:id="lbl_bilgi_4" layoutX="151.0" layoutY="251.0" prefHeight="17.0" prefWidth="97.0" text="Ders ID :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_bilgi_ders" layoutX="243.0" layoutY="295.0" />
+      <Button layoutX="223.0" layoutY="356.0" mnemonicParsing="false" onAction="#guncelle" prefHeight="25.0" prefWidth="97.0" text="Güncelle" />
+      <ComboBox fx:id="cmb_bilgi_id" layoutX="243.0" layoutY="251.0" prefWidth="150.0" />
+      <Button fx:id="btn_anasayfa" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#git_anasayfa" text="Ana Sayfa" />
+   </children>
+</AnchorPane>
